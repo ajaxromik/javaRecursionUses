@@ -16,7 +16,7 @@ public class P0S3Driver {
 
     static BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 
-    public static void main(String[] args) throws NumberFormatException, IOException {
+    public static void main(String[] args) throws ArithmeticException, NumberFormatException, IOException {
 
         System.out.println("\nEnter the number to find the factorials to:\n");
         int number = Integer.parseInt(stdin.readLine().trim());
@@ -30,7 +30,7 @@ public class P0S3Driver {
 
     }
 
-    public static BigInteger factorial(BigInteger n) {
+    public static BigInteger factorial(BigInteger n) throws ArithmeticException{
         if(n.equals(BigInteger.ONE))
             return BigInteger.ONE;
         return n.multiply(factorial(n.subtract(BigInteger.ONE)));

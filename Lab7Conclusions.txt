@@ -1,2 +1,13 @@
+n0: 13
 Solution 1 broke at 13! because it is the first number over the int's maximum of 2^31-1
 This can be improved by using the long primitive type.
+
+n1: 21
+Solution 2 broke at 21! because it was the first number to reach over the
+maximum of the long primitive type. This could be further improved
+by using a BigInteger
+
+n2: 11807
+I'm not quite sure what the accuracy limitations of this approach might be.
+One guess is that the BigInteger constructors can only take up to an integer the size of 2 raised to the power of the max integer.
+11807 is where a stack overflow occurs.
