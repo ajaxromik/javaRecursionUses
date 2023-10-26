@@ -29,13 +29,13 @@ public class PreP1Driver {
     }
 
     public static void solve(int n, String I, String D, String T, int[] counters) {
-        counters[0]++;
-        if(n > 0) {
-            solve(n-1, I, T, D, counters);
-            System.out.printf("move disk %d from %s to %s%n", n, I, D);
-            counters[1]++;
-            solve(n-1, T, D, I, counters);
-        }
-    }
+		counters[0]++;
+		if(n > 0) {
+			solve(n-1, I, T, D, counters);
+			System.out.printf("move disk %d from %s to %s%n", n, I, D);
+			counters[1]++;
+			solve(n-1, T, D, I, counters);
+		}
+	}
 
 }

@@ -24,13 +24,13 @@ public class P0S3Driver {
 
         for(int i = 1; i <= number; i++) {
             BigInteger n = new BigInteger(""+i);
-            System.out.printf("%s \t %s %n", factorial(n).toString(),
-                              n.toString());
+            System.out.printf("%s \t %s %n", factorial(n).toString(), 
+                n.toString());
         }
 
     }
 
-    public static BigInteger factorial(BigInteger n) throws ArithmeticException {
+    public static BigInteger factorial(BigInteger n) throws ArithmeticException{
         if(n.equals(BigInteger.ONE))
             return BigInteger.ONE;
         return n.multiply(factorial(n.subtract(BigInteger.ONE)));
