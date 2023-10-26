@@ -1,0 +1,93 @@
+
+Enter the number of disks for the Towers of Hanoi: 
+
+
+calls: 1
+disk moves: 0
+
+Enter the number of disks for the Towers of Hanoi: 
+
+move disk 1 from The Left Tower to The Right Tower
+
+calls: 3
+disk moves: 1
+
+Enter the number of disks for the Towers of Hanoi: 
+
+move disk 1 from The Left Tower to The Middle Tower
+move disk 2 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Right Tower
+
+calls: 7
+disk moves: 3
+
+Enter the number of disks for the Towers of Hanoi: 
+
+move disk 1 from The Left Tower to The Right Tower
+move disk 2 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 3 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 2 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Right Tower
+
+calls: 15
+disk moves: 7
+
+Enter the number of disks for the Towers of Hanoi: 
+
+move disk 1 from The Left Tower to The Middle Tower
+move disk 2 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Right Tower
+move disk 3 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Left Tower
+move disk 2 from The Right Tower to The Middle Tower
+move disk 1 from The Left Tower to The Middle Tower
+move disk 4 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Right Tower
+move disk 2 from The Middle Tower to The Left Tower
+move disk 1 from The Right Tower to The Left Tower
+move disk 3 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Middle Tower
+move disk 2 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Right Tower
+
+calls: 31
+disk moves: 15
+
+Enter the number of disks for the Towers of Hanoi: 
+
+move disk 1 from The Left Tower to The Right Tower
+move disk 2 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 3 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 2 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Right Tower
+move disk 4 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 2 from The Right Tower to The Left Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 3 from The Right Tower to The Middle Tower
+move disk 1 from The Left Tower to The Right Tower
+move disk 2 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 5 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 2 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Right Tower
+move disk 3 from The Middle Tower to The Left Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 2 from The Right Tower to The Left Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 4 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Right Tower
+move disk 2 from The Left Tower to The Middle Tower
+move disk 1 from The Right Tower to The Middle Tower
+move disk 3 from The Left Tower to The Right Tower
+move disk 1 from The Middle Tower to The Left Tower
+move disk 2 from The Middle Tower to The Right Tower
+move disk 1 from The Left Tower to The Right Tower
+
+calls: 63
+disk moves: 31
