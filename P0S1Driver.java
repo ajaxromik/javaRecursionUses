@@ -19,7 +19,7 @@ public class P0S1Driver {
 
         System.out.println("\nEnter the number to find the factorials to:\n");
         int number = Integer.parseInt(stdin.readLine().trim());
-        System.out.println(number);
+        // System.out.println(number);
 
         for(int i = 1; i <= number; i++) {
             System.out.printf("%d \t %d %n", factorial(i), i);
