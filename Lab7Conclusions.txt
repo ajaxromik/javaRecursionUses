@@ -1,0 +1,2 @@
+Solution 1 broke at 13! because it is the first number over the int's maximum of 2^31-1
+This can be improved by using the long primitive type.
