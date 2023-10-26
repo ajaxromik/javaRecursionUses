@@ -22,7 +22,7 @@ public class P0S1Driver {
         System.out.println(number);
 
         for(int i = 1; i <= number; i++) {
-            System.out.printf("%d \t %d", factorial(i), i);
+            System.out.printf("%d \t %d %n", factorial(i), i);
         }
 
     }
@@ -30,7 +30,7 @@ public class P0S1Driver {
     public static int factorial(int n) {
         if(n == 1)
             return 1;
-        return n*factorial(n);
+        return n*factorial(n-1);
     }
 
 }
