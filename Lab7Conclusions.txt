@@ -11,3 +11,17 @@ n2: 11807
 I'm not quite sure what the accuracy limitations of this approach might be.
 One guess is that the BigInteger constructors can only take up to an integer the size of 2 raised to the power of the max integer.
 11807 is where a stack overflow occurs.
+
+
+I was able to see a StackOverflowError at the recursive factorial attempt
+with an 11807 because there was too many calls to the factorial method for 
+the computer to handle.
+
+I was able to create an OutOfMemoryError by allocating an array of 
+primitive long variables and the length of 133693480.
+
+This was the number right after the max that 1G of memory could handle
+on the heap.
+
+
+Prelab Problem 1 was nice and easy
