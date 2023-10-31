@@ -11,7 +11,7 @@ import java.io.*;
  * @version: 2023.10.31
  */
 
-public class DriverL6P0 {
+public class P2Driver {
 
     static BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
 
@@ -71,12 +71,12 @@ public class DriverL6P0 {
         int n = readInt("\n\tEnter n: ");
         int k = readInt("\n\tEnter k: ");
 
-        result = BinCoeff_1(n, k);
+        int result = BinCoeff_1(n, k);
         System.out.printf("%d choose %d"+
-                          " is %d.%n%n", itemName);
+                          " is %d.%n%n", n, k, result);
     }
 
-    public static int BinCoeff_1() {
+    public static int BinCoeff_1(int n, int k) {
         if(k == 0 || k == n)
             return 1;
         else
