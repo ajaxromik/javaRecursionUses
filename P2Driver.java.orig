@@ -90,8 +90,8 @@ public class P2Driver {
         for(int row = 0; row < n+1; row++) {
             System.out.println();
             for(int k = 0; k <= row; k++) {
-                triangle[row][k] = ( k == 0 || k == n ) ?
-                                   1 : (triangle[row-1][k-1] + triangle[row-1][k]);
+                triangle[row][k] = ( k == 0 || k == n ) ? 
+                    1 : (triangle[row-1][k-1] + triangle[row-1][k]);
                 System.out.printf("%d ", triangle[row][k]);
             }
         }
@@ -116,8 +116,8 @@ public class P2Driver {
         for(int row = 0; row < n+1; row++) {
             rowMax = Math.min(row, kstar);
             for(int curK = 0; curK <= rowMax; curK++) {
-                triangle[row][curK] = ( curK == 0 || curK == n ) ?
-                                      1 : (triangle[row-1][curK-1] + triangle[row-1][curK]);
+                triangle[row][curK] = ( curK == 0 || curK == n ) ? 
+                    1 : (triangle[row-1][curK-1] + triangle[row-1][curK]);
             }
         }
         return triangle[n][kstar];
