@@ -36,9 +36,9 @@ public class P2Driver {
             case 1:
                 recursiveBinCo();
                 break;
-            // case 2:
-            //     popFront();
-            //     break;
+            case 2:
+                displayPascal();
+                break;
             // case 3:
             //     peekFront();
             //     break;
@@ -72,7 +72,7 @@ public class P2Driver {
         int k = readInt("\n\tEnter k: ");
 
         int result = BinCoeff_1(n, k);
-        System.out.printf("%d choose %d"+
+        System.out.printf("%n%n%d choose %d"+
                           " is %d.%n%n", n, k, result);
     }
 
@@ -81,6 +81,22 @@ public class P2Driver {
             return 1;
         else
             return BinCoeff_1(n-1, k-1) + BinCoeff_1(n-1, k);
+    }
+
+    public static void displayPascal() {
+        int n = readInt("\n\tEnter n: ");
+
+        int[][] triangle = new int[n+1][n+1];
+        for(int row = 0; row < n+1; row++) {
+            System.out.println();
+            for(int k = 0; k <= row; k++) {
+                triangle[row][k] = ( k == 0 || k == n ) ? 
+                    1 : (triangle[row-1][k-1] + triangle[row-1][k]);
+                System.out.printf("%d ", triangle[row][k]);
+            }
+        }
+
+        System.out.println();
     }
 
 }
