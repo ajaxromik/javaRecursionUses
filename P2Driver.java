@@ -21,8 +21,8 @@ public class P2Driver {
                            +"\t0. Exit Program\n"
                            +"\t1. Recursive binomial coefficient\n"
                            +"\t2. Draw pascal's triangle\n"
-                           +"\t3. text\n"
-                           +"\t4. text");
+                           +"\t3. Iterative binomial coefficient\n"
+                           +"\t4. Formulaic binomial coefficient");
 
         int selection;
         boolean continuing = true, repeat = false;
@@ -39,12 +39,12 @@ public class P2Driver {
             case 2:
                 displayPascal();
                 break;
-            // case 3:
-            //     peekFront();
-            //     break;
-            // case 4:
-            //     dequeueAll();
-            //     break;
+            case 3:
+                iterativeBinCo();
+                break;
+            case 4:
+                formulaicBinCo();
+                break;
             default: // continuing unless told to stop
                 continuing = false;
                 System.out.println("Exiting program... Goodbye!");
@@ -97,6 +97,50 @@ public class P2Driver {
         }
 
         System.out.println();
+    }
+
+    public static void iterativeBinCo() {
+        int n = readInt("\n\tEnter n: ");
+        int k = readInt("\n\tEnter k: ");
+
+        int result = BinCoeff_2(n, k);
+        System.out.printf("%n%n%d choose %d"+
+                          " is %d.%n%n", n, k, result);
+    }
+
+    public static int BinCoeff_2(int n, int k) {
+        int kstar = Math.min(k, n-k);
+        int rowMax;
+
+        int[][] triangle = new int[n+1][kstar+1];
+        for(int row = 0; row < n+1; row++) {
+            rowMax = Math.min(row, kstar);
+            for(int curK = 0; curK <= rowMax; curK++) {
+                triangle[row][curK] = ( curK == 0 || curK == n ) ? 
+                    1 : (triangle[row-1][curK-1] + triangle[row-1][curK]);
+            }
+        }
+        return triangle[n][kstar];
+    }
+
+    public static void formulaicBinCo() {
+        int n = readInt("\n\tEnter n: ");
+        int k = readInt("\n\tEnter k: ");
+
+        int result = BinCoeff_3(n, k);
+        System.out.printf("%n%n%d choose %d"+
+                          " is %d.%n%n", n, k, result);
+    }
+
+    public static int BinCoeff_3(int n, int k) {
+        int kstar = Math.min(k, n-k);
+        int result = 1;
+
+        for(int i = 0; i < kstar; i ++) {
+            result = result * (n-i) / (kstar-i);
+        }
+
+        return result;
     }
 
 }
