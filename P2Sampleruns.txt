@@ -1,0 +1,203 @@
+
+Select from the following menu:
+	0. Exit Program
+	1. Recursive binomial coefficient
+	2. Draw pascal's triangle
+	3. Iterative binomial coefficient
+	4. text
+Make your menu selection now: 1
+
+	Enter n: 0
+	Enter k: 0
+
+0 choose 0 is 1.
+
+Make your menu selection now: 1
+
+	Enter n: 100
+	Enter k: 0
+
+100 choose 0 is 1.
+
+Make your menu selection now: 1
+
+	Enter n: 100
+	Enter k: 1
+
+100 choose 1 is 100.
+
+Make your menu selection now: 1
+
+	Enter n: 100
+	Enter k: 99
+
+100 choose 99 is 100.
+
+Make your menu selection now: 1
+
+	Enter n: 7
+	Enter k: 7
+
+7 choose 7 is 1.
+
+Make your menu selection now: 1
+
+	Enter n: 6
+	Enter k: 4
+
+6 choose 4 is 15.
+
+Make your menu selection now: 1
+
+	Enter n: 6
+	Enter k: 5
+
+6 choose 5 is 6.
+
+Make your menu selection now: 1
+
+	Enter n: 6
+	Enter k: 3
+
+6 choose 3 is 20.
+
+Make your menu selection now: 1
+
+	Enter n: 4
+	Enter k: 2
+
+4 choose 2 is 6.
+
+Make your menu selection now: 2
+
+	Enter n: 1
+1 
+1 1 
+Make your menu selection now: 2
+
+	Enter n: 2
+1 
+1 1 
+1 2 1 
+Make your menu selection now: 2
+
+	Enter n: 3
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+Make your menu selection now: 2
+
+	Enter n: 4
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+Make your menu selection now: 2
+
+	Enter n: 5
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
+Make your menu selection now: 2
+
+	Enter n: 6
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
+1 6 15 20 15 6 1 
+Make your menu selection now: 2
+
+	Enter n: 7
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
+1 6 15 20 15 6 1 
+1 7 21 35 35 21 7 1 
+Make your menu selection now: 2
+
+	Enter n: 8
+1 
+1 1 
+1 2 1 
+1 3 3 1 
+1 4 6 4 1 
+1 5 10 10 5 1 
+1 6 15 20 15 6 1 
+1 7 21 35 35 21 7 1 
+1 8 28 56 70 56 28 8 1 
+Make your menu selection now: 3
+
+	Enter n: 0
+	Enter k: 0
+
+0 choose 0 is 1.
+
+Make your menu selection now: 3
+
+	Enter n: 100
+	Enter k: 0
+
+100 choose 0 is 1.
+
+Make your menu selection now: 3
+
+	Enter n: 100
+	Enter k: 1
+
+100 choose 1 is 100.
+
+Make your menu selection now: 3
+
+	Enter n: 100
+	Enter k: 99
+
+100 choose 99 is 100.
+
+Make your menu selection now: 3
+
+	Enter n: 7
+	Enter k: 7
+
+7 choose 7 is 1.
+
+Make your menu selection now: 3
+
+	Enter n: 6
+	Enter k: 4
+
+6 choose 4 is 15.
+
+Make your menu selection now: 3
+
+	Enter n: 6
+	Enter k: 5
+
+6 choose 5 is 6.
+
+Make your menu selection now: 3
+
+	Enter n: 6
+	Enter k: 3
+
+6 choose 3 is 20.
+
+Make your menu selection now: 3
+
+	Enter n: 4
+	Enter k: 2
+
+4 choose 2 is 6.
+
+Make your menu selection now: 0
+Exiting program... Goodbye!
