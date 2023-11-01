@@ -25,3 +25,23 @@ on the heap.
 
 
 Prelab Problem 1 was nice and easy
+
+Problem 2F:
+Method 3 is the most efficient because it does the least amount of 
+operations. 
+
+Method 1 is easily the worst with its excessive amount of 
+unnecessary function calls. 
+
+Method 2 has a for loop that will end up running multiple times for the 
+entire length of k* for large numbers.
+
+Method 3 however simply will do a multiplication and a division for the
+length of k*. It's much simpler code and a much more efficient solution.
+
+
+Problem 3:
+I have learned why recursion is extremely inefficient in this lab, and 
+that there is often ways around the recursive solution, either by 
+storing the necessary data in order to save from recreating it,
+or by finding a solution that cuts off the excess steps.
