@@ -4,7 +4,7 @@ Select from the following menu:
 	1. Recursive binomial coefficient
 	2. Draw pascal's triangle
 	3. Iterative binomial coefficient
-	4. text
+	4. Formulaic binomial coefficient
 Make your menu selection now: 1
 
 	Enter n: 0
@@ -193,6 +193,69 @@ Make your menu selection now: 3
 6 choose 3 is 20.
 
 Make your menu selection now: 3
+
+	Enter n: 4
+	Enter k: 2
+
+4 choose 2 is 6.
+
+Make your menu selection now: 4
+
+	Enter n: 0
+	Enter k: 0
+
+0 choose 0 is 1.
+
+Make your menu selection now: 4
+
+	Enter n: 100
+	Enter k: 0
+
+100 choose 0 is 1.
+
+Make your menu selection now: 4
+
+	Enter n: 100
+	Enter k: 1
+
+100 choose 1 is 100.
+
+Make your menu selection now: 4
+
+	Enter n: 100
+	Enter k: 99
+
+100 choose 99 is 100.
+
+Make your menu selection now: 4
+
+	Enter n: 7
+	Enter k: 7
+
+7 choose 7 is 1.
+
+Make your menu selection now: 4
+
+	Enter n: 6
+	Enter k: 4
+
+6 choose 4 is 15.
+
+Make your menu selection now: 4
+
+	Enter n: 6
+	Enter k: 5
+
+6 choose 5 is 6.
+
+Make your menu selection now: 4
+
+	Enter n: 6
+	Enter k: 3
+
+6 choose 3 is 20.
+
+Make your menu selection now: 4
 
 	Enter n: 4
 	Enter k: 2
