@@ -109,12 +109,12 @@ public class P2Driver {
     }
 
     public static int BinCoeff_2(int n, int k) {
-        int kstar = Math.min(k, n-k);
+        int kstar = (k > n-k) ? n-k : k;
         int rowMax;
 
         int[][] triangle = new int[n+1][kstar+1];
         for(int row = 0; row < n+1; row++) {
-            rowMax = Math.min(row, kstar);
+            rowMax = row > kstar ? kstar : row;
             for(int curK = 0; curK <= rowMax; curK++) {
                 triangle[row][curK] = ( curK == 0 || curK == n ) ?
                                       1 : (triangle[row-1][curK-1] + triangle[row-1][curK]);
@@ -133,7 +133,7 @@ public class P2Driver {
     }
 
     public static int BinCoeff_3(int n, int k) {
-        int kstar = Math.min(k, n-k);
+        int kstar = (k > n-k) ? n-k : k;
         int result = 1;
 
         for(int i = 0; i < kstar; i ++) {
